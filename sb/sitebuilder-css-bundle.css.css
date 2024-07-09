@@ -6374,7 +6374,9 @@ span.heading.sm {
 
     p.heading.sm,
     span.heading.sm {
-        font-size: var(--p-heading_small-typography_font-size_xl);
+        /* font-size: var(--p-heading_small-typography_font-size_xl); */
+        font-size: 20px;
+        margin-top: 10px;
     }
 }
 
