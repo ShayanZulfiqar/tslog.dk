@@ -13497,8 +13497,9 @@ body.footer-underline-link footer#site-footer .item a:not(.btn):not(.nav-button-
 body.footer-underline-link footer#site-footer .item .text a:not(.btn):not(.nav-button-link):not(:hover):not(:focus):not(:active),
 body.footer-underline-link footer#site-footer .item .nav a:not(.btn):not(.nav-button-link):not(:hover):not(:focus):not(:active),
 body.footer-underline-link footer#site-footer .item nav a:not(.btn):not(.nav-button-link):not(:hover):not(:focus):not(:active) {
-    text-decoration: underline !important;
+    text-decoration: none !important;
     text-decoration-color: inherit !important;
+    
 }
 
 body.footer-underline-link-hover footer#site-footer .item a:not(.btn):not(.nav-button-link):hover,
