@@ -8868,7 +8868,9 @@ footer#site-footer .quick-links ul {
 }
 
 @media (min-width:1200px) {
-    footer#site-footer .footer-item:not(.col-lg-1):not(.col-lg-2):not(.col-lg-3) .quick-links ul li {
+    footer#site-footer .footer-item:not(.col-lg-1):not(.col-lg-2):not(.col-lg-3) .quick-links ul li a{
+        /* color: red; */
+        border-bottom: 2px solid white;
         flex-basis: 50%;
         flex: 0 0 50%;
     }
@@ -15042,3 +15044,4 @@ html[dir="ltr"] .item.item_filter-group>.inner .tab>.nav-link {
 .item.item_filter-selected>.inner>.filters .btn:hover {
     border-color: rgba(var(--base-borders), 1);
 }
+
