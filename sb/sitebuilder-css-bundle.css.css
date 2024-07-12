@@ -8032,7 +8032,7 @@ footer#site-footer table td {
 
 @media (min-width:1200px) {
     footer#site-footer {
-        padding-bottom: calc(var(--pc-spacing_xl) * 2);
+        /* padding-bottom: calc(var(--pc-spacing_xl) * 2); */
     }
 
     footer#site-footer>.container {
@@ -8850,6 +8850,7 @@ footer#site-footer .quick-links ul {
     footer#site-footer .quick-links ul li {
         flex-basis: 50%;
         flex: 0 0 50%;
+        
     }
 }
 
@@ -8857,6 +8858,8 @@ footer#site-footer .quick-links ul {
     footer#site-footer .footer-item:not(.col-md-1):not(.col-md-2):not(.col-md-3) .quick-links ul li {
         flex-basis: 50%;
         flex: 0 0 50%;
+        border-bottom: 2px solid white;
+        width: 50%;
     }
 }
 
@@ -8864,6 +8867,8 @@ footer#site-footer .quick-links ul {
     footer#site-footer .footer-item:not(.col-lg-1):not(.col-lg-2):not(.col-lg-3) .quick-links ul li {
         flex-basis: 100%;
         flex: 0 0 100%;
+        border-bottom: 2px solid white;
+        width: 50%;
     }
 }
 
@@ -8871,6 +8876,7 @@ footer#site-footer .quick-links ul {
     footer#site-footer .footer-item:not(.col-lg-1):not(.col-lg-2):not(.col-lg-3) .quick-links ul li a{
         /* color: red; */
         border-bottom: 2px solid white;
+        width: 50%;
         flex-basis: 50%;
         flex: 0 0 50%;
     }
