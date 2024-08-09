@@ -3106,10 +3106,10 @@ blockquote::before,
     color: rgba(var(--base-highlight-text), 1);
 }
 
-.btn.base-btn-bg,
+/* .btn.base-btn-bg,
 .btn-bg_base-btn-bg .btn {
     background: rgba(var(--base-btn-bg-color1), 1);
-}
+} */
 
 .base-btn-bg:hover,
 .btn-bg_base-btn-bg .btn:hover,
