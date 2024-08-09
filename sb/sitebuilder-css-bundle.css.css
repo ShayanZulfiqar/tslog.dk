@@ -8036,7 +8036,7 @@ footer#site-footer table td {
     }
 
     footer#site-footer>.container {
-        padding-top: var(--pc-spacing_xl);
+        /* padding-top: var(--pc-spacing_xl); */
     }
 }
 
@@ -9040,7 +9040,7 @@ footer#site-footer nav.footer-navigation ul li.site-credit a:not(.btn) {
 
 @media (min-width:992px) {
     nav.footer-navigation {
-        padding-top: calc(var(--base-spacing) * 2);
+        /* padding-top: calc(var(--base-spacing) * 2); */
     }
 
     nav.footer-navigation ul li.site-credit {
