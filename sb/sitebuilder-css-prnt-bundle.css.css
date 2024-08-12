@@ -71,6 +71,7 @@ footer#site-footer {
   margin-top: 25pt;
   padding-top: 15pt;
   border-top: 1pt solid black;
+  padding: 15px;
 }
 div.image,
 div.video,
