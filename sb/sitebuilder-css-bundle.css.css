@@ -15063,6 +15063,6 @@ p.heading.lg, span.heading.lg {
         padding-top: 4px;
     }
     footer#site-footer .footer-item{
-        padding-bottom: 4px !important;
+        padding-bottom: 20px !important;
     }
 }
