@@ -15051,4 +15051,18 @@ html[dir="ltr"] .item.item_filter-group>.inner .tab>.nav-link {
 .item.item_filter-selected>.inner>.filters .btn:hover {
     border-color: rgba(var(--base-borders), 1);
 }
+p.heading.lg, span.heading.lg {
+    font-size: 59px;
+}
 
+@media (min-width:320px) and (max-width:375px){
+    p.heading.lg, span.heading.lg {
+        font-size: 33px;
+    }
+    nav.footer-navigation {
+        padding-top: 4px;
+    }
+    footer#site-footer .footer-item{
+        padding-bottom: 4px !important;
+    }
+}
