@@ -15056,7 +15056,7 @@ p.heading.lg, span.heading.lg {
 }
 
 
-@media (min-width:320px) and (max-width:375px){
+@media (min-width:320px) and (max-width:400px){
     p.heading.lg, span.heading.lg {
         font-size: 33px;
     }
