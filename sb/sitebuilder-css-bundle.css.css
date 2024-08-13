@@ -15055,6 +15055,7 @@ p.heading.lg, span.heading.lg {
     font-size: 59px;
 }
 
+
 @media (min-width:320px) and (max-width:375px){
     p.heading.lg, span.heading.lg {
         font-size: 33px;
@@ -15064,5 +15065,8 @@ p.heading.lg, span.heading.lg {
     }
     footer#site-footer .footer-item{
         padding-bottom: 20px !important;
+    }
+    .link a{
+        font-size: 10px;
     }
 }
